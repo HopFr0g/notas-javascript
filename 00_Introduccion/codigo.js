@@ -1,0 +1,1 @@
+alert('Si estas leyendo esto al iniciar la pagina, entonces se ha enlazado el archivo .js con exito')

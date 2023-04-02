@@ -1,0 +1,19 @@
+div {
+	padding: 40px;
+}
+
+.div-rojo {
+	background: #f00;
+}
+
+.div-azul {
+	background: #00f;
+}
+
+.div-verde {
+	background: #0f0;
+}
+
+.div-amarillo {
+	background: #ff0;
+}

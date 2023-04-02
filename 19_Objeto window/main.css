@@ -1,0 +1,10 @@
+.caja-de-prueba {
+	background: #78f;
+	position: absolute;
+	
+	left: 100vw;
+	top: 100vh;
+
+	width: 150vw;
+	height: 150vh;
+}

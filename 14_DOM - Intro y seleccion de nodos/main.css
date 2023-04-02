@@ -1,0 +1,25 @@
+* {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+.container:first-child {
+	background: #6fa;
+}
+
+.container__img {
+	width: 800px;
+}
+
+h1 {
+	color: #00f;
+	font-size: 24px;
+	text-align: center;
+	margin: 12px;
+}
+
+p {
+	color: #f00;
+	margin: 8px;
+}

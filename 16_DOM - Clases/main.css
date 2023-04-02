@@ -1,0 +1,10 @@
+.titulo {
+	font-family: sans-serif;
+	font-size: 24px;
+	background: #97f;
+	padding: 10px;
+}
+
+.otra-clase {
+	text-decoration: underline;
+}

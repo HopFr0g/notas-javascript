@@ -1,0 +1,41 @@
+Javascript:
+
+- Lenguaje de programación
+- Interpretado
+- Orientado a objetos
+- Imperativo (las instrucciones se ejecutan en orden, de línea en línea)
+- Case sensitive
+- Basado en prototipos / instancias / classless (en lugar de crear objetos instanciando clases, aquí los objetos se basan en prototipos, es decir, los objetos que creamos están basados en otro objeto ya creado por los desarrolladores de JS)
+- Tipado debil (el datatype de una misma variable puede cambiar a lo largo del tiempo)
+- Lenguaje dinámico (La variable se ajusta al dato que se le asigna. Ejemplo, si le asigno a una variable el valor 15, esta automáticamente será un número. No la tengo que declarar como "int" como en otros lenguajes.)
+
+- Las versiones de JS que veremos corresponden a ECMAScript versión 6 en adelante.
+- ES.NEXT (ECMAScript Next) hace referencia a la próxima versión que saldrá.
+
+- JS se utiliza para:
+	- Dinamismo en sitios web (del lado del cliente, es decir, navegador) 
+	- Servidores en NodeJS
+	- Tecnologías Frontend como Angular, React o Vue.JS
+	- Usos menos comunes: IA, placas electrónicas, apps de movil o escritorio, etc
+
+
+Editor de texto:
+
+- Instalar Sublime Text 3
+- Acceder a Command Palette (CTRL + Shift + P) y tipear "Install Package Control"
+- Nuevamente en Command Palette, tipear "Install Package" y seleccionar "Package Control: Install Package" (la primera opción). Una vez ahí, instalar los siguientes paquetes:
+	- BlackBird-ColorScheme
+	- Theme - Brogrammer
+	- Set_UI
+	- LiveReload
+	- ColorHelper
+	- ColorPicker
+- Elegir los dos paquetes recién instalados en "Preferences > Color scheme" y "Preferences > Theme"
+
+
+Comenzar:
+
+- Guardar un archivo en blanco "index.html"
+- Al comenzar a tipear <html> se podrá autocompletar las partes básicas de un archivo HTML
+- Abrir el archivo index.html con un navegador
+- Ver el archivo index.html creado en esta sección para más
