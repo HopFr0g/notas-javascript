@@ -1,0 +1,59 @@
+* {
+    font-family: sans-serif;
+    color: #fff;
+}
+
+.main-section {
+    min-width: 500px;
+}
+
+.contenedor-boton {
+    position: relative;
+    width: 100%;
+}
+
+.boton-info {
+    border: none;
+    background: #44f;
+    
+    font-size: 16pt;
+    color: #fff;
+    
+    padding: 8px 16px;
+    
+    display: block;
+    position: relative;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+
+.boton-info:hover {
+    background: #33f;
+}
+
+.boton-info:active {
+    background: #22f;
+}
+
+.contenedor-info {
+    margin: 8px;
+    
+    display: flex;
+    flex-direction: row;
+}
+
+.contenedor-info__aprobados, .contenedor-info__reprobados {
+    height: 60px;
+    min-width: 200px;
+    
+    font-size: 24pt;
+}
+
+.contenedor-info__aprobados {
+    background: #282;
+}
+
+.contenedor-info__reprobados {
+    background: #f33;
+}

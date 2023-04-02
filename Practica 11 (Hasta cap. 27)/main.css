@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    padding: 4px;
+}
+
+.materia {
+    width:90%;
+    height: 32px;
+    margin: 0 auto;
+    
+    display: flex;
+}
+
+.materia-nombre {
+    background: #bbf;
+    
+    flex-grow: 1;
+}
+
+.materia-nota {
+    background: #ddf;
+    
+    flex-basis: 40px;
+}
+
+.materia-nombre, .materia-nota {
+    padding: 7px;
+    color: #225;
+}
+
+.materia-nombre h3, .materia-nota h3 {
+    font-size: 16px;
+}
+
+.materia-nota h3 {
+    text-align: center;
+}
+
+.aprobado {
+    color: #080;
+}
+
+.reprobado {
+    color: #b00;
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Clima</title>
+
+	<link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>
+	<div class="clima">
+		<div class="clima__selector">
+			<select class="clima__selector-distrito">
+				<option value="">Selecciona un distrito</option>
+			</select>
+
+			<select class="clima__selector-localidad" style="display: none">
+				<option value="">Selecciona una localidad</option>
+			</select>
+		</div>
+
+		<div class="clima__resultado">
+			<h3 class="clima__resultado-localidad"></h3>
+			<h4 class="clima__resultado-distrito"></h4>
+			<h3 class="clima__resultado-temperatura"></h3>
+			<h4 class="clima__resultado-descripcion"></h4>
+		</div>
+
+		<div class="clima__pantalla-carga">
+			<img src="loading.gif">
+		</div>
+
+		<div class="clima__fondo"></div>
+
+		<h6 class="clima__fuente">Datos extraidos de MSN</h6>
+	</div>
+
+	<script type="text/javascript" src="clima.js"></script>
+</body>
+</html>

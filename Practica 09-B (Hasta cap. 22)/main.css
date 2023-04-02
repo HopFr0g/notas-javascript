@@ -1,0 +1,23 @@
+.grid-container {
+	display: grid;
+	grid-template-columns: repeat(4, minmax(min-content, max-content));
+	grid-auto-rows: 50px; /* grid implícito */
+}
+
+.grid-item {
+	padding: 10px;
+	border: 1px solid #26a;
+	margin: 5px;
+}
+
+.boton-confirmar {
+	padding: 10px 40px;
+	background: #48e;
+	color: #fff;
+	border: none;
+	margin: 30px;
+}
+
+.boton-confirmar:hover {
+	background: #26e;
+}
