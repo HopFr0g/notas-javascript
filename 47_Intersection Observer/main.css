@@ -1,0 +1,35 @@
+.caja {
+    width: 400px;
+    height: 300px;
+    
+    display: flex;
+    
+    margin: 20px auto;
+    
+    color: #fff;
+    font-size: 48px;
+}
+
+.caja span {
+    margin: auto;
+}
+
+.caja:nth-child(1) {
+    background: #48e;
+    border: 40px dashed #248;
+}
+
+.caja:nth-child(2) {
+    background: #e48;
+    border: 40px dashed #824;
+}
+
+.caja:nth-child(3) {
+    background: #4e8;
+    border: 40px dashed #284;
+}
+
+.caja:nth-child(4) {
+    background: #777;
+    border: 40px dashed #444;
+}

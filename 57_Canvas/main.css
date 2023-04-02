@@ -1,0 +1,7 @@
+#canvas {
+    /* Por defecto tiene un width de 300px y un height de 150px */
+    /* Si se modifican las dimensiones desde CSS, se cambia la escala (y eso traerá problemas) */
+    /* Se recomienda cambiar el width y height en el mismo documento html */
+    margin: 40px;
+    border: 1px solid #000000;
+}
